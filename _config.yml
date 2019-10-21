@@ -1,15 +1,15 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Undercity - Subway Simulator                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
 
-playstore_link                            : https://play.google.com/store/apps/details?id=com.JLapps.undercity
+playstore_link                            : https://play.google.com/store/apps/details?id=com.JLapps.undercity&referrer=utm_source%3Dundercity-page%26utm_medium%3Dweb
 presskit_download_link                    : null                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : Undercity - Subway simulator                                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : Undercity - Subway Simulator                                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : FREE
 app_description                           : Easy to play subway simulator. Explore cities' subway lines!
 
@@ -28,46 +28,29 @@ youtube_username                          : jlapps1
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml.yml. Upload screenshots/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
+  - title                                 : Simple
+    description                           : Simple but fun to play subway simulator!
+    fontawesome_icon_name                 : thumbs-up
     
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+  - title                                 : Real stations
+    description                           : Contains subway station from worlds largest cities such as New York, London, Paris and more!
+    fontawesome_icon_name                 : globe-americas
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+  - title                                 : Upgrade your subway
+    description                           : There are various upgrades for your subway such as higher maximum speed limit or faster braking
+    fontawesome_icon_name                 : arrow-alt-circle-up
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
+  - title                                 : Connect
+    description                           : Login to your Google Play Games account to connect with other players and earn achievements
+    fontawesome_icon_name                 : users
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
+  - title                                 : Graphics inspired by real trains
+    description                           : Each city has its own graphics for both trains and stations inspired by real ones
+    fontawesome_icon_name                 : subway
   
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
-
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
-
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
-
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
-
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
-
+  - title                                 : Pixel art
+    description                           : Beautiful pixel art graphics gives you the right retro feel
+    fontawesome_icon_name                 : palette
 
 
 # Theme Settings
