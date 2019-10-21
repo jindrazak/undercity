@@ -17,9 +17,11 @@
                         </svg>
 
                         <div class="videoContainer hidden">
-                            <video class="screenvideo" autoplay="autoplay" controls="controls">
+                            <video class="screenvideo" playsinline autoplay muted loop>
+                                <source src="{{ site.github.baseurl }}/assets/videos/video.webm" type="video/webm">
+                                <img src="{{ site.github.baseurl }}/assets/screenshots/screenshot.png" title="Undercity">
                             </video>
-                        </div>  
+                        </div>
                         
                         <img class="iphoneScreen hidden" src="" alt="">
 
@@ -51,15 +53,11 @@
                             </p>
                         </div>
                         <div class="downloadButtonsContainer">
-                            {% if site.playstore_link %}
-                                <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
-                            {% endif %}
-                            <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
+                            <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
                         </div>
                     </div>
                     {% include features.html %}
                     {% include footer.html %}
-                    {% include appstoreimages.html %}
                 </div>
             </div>
         </div>
